@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>밴딩머신과제</title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="img/Group.png" alt="">
+        </header>
+            <div class="flex-container"> <!--전체 flex 컨텐이너 시작-->
+            <section class="first-context"><!--fist 컨텐츠박스 시작-->
+           <div class="grid-container">
+               <!--그리드 음료 메뉴박스 시작  -->
+            <section class="card border-purple">
+               <img class="card-cover" src="./img/콜라.png" alt="">
+               <div class="card-content">
+                <p class="drink-favor">Orginal-Cola</p>
+                <button class="price-button" type="button">1000원</button>
+               </div>
+            </section>
+            <section class="card soldout">  
+                <img class="card-cover" src="./img/보라콜라.png" alt="">
+                <div class="card-content">
+                 <p class="drink-favor">Violet-Cola</p>
+                 <button class="price-button" type="button">1000원</button>
+                </div>
+             </section>
+             <section class="card">
+                <img class="card-cover" src="./img/노란콜라.png" alt="">
+                <div class="card-content">
+                 <p class="drink-favor">Yellow-Cola</p>
+                 <button class="price-button" type="button">1000원</button>
+                </div>
+             </section>
+             <section class="card">
+                <img class="card-cover" src="./img/파란콜라.png" alt="">
+                <div class="card-content">
+                 <p class="drink-favor">Cool-Cola</p>
+                 <button class="price-button" type="button">1000원</button>
+                </div>
+             </section>
+             <section class="card ">
+                <img class="card-cover" src="./img/초록콜라.png" alt="">
+                <div class="card-content">
+                 <p class="drink-favor">Green-Cola</p>
+                 <button class="price-button" type="button">1000원</button>
+                </div>
+             </section>
+             <section class="card">
+                <img class="card-cover" src="./img/주황콜라.png" alt="">
+                <div class="card-content">
+                 <p class="drink-favor">Orginal-Cola</p>
+                 <button class="price-button" type="button">1000원</button>
+                </div>
+             </section>
+           </div>
+         <!--그리드 음료 메뉴박스 끝  -->
+            <!--그리드 grid-container2 시작  -->
+         <div class="grid-container2">
+            <div class="box-total">
+                <input type="text" value="잔액 :                 1,000원">
+           
+            </div>
+            <div class="box-total2">
+                
+            </div> 
+            <div class="box-change"> 
+                <button class="charge-money-btn" type="submit"> 거스름돈 반환</button>
+            </div>
+            <div class="box-putMoney">
+                <input type="text" placeholder="입금액 입력">
+            </div>
+            <div class="box-putMoney2">
+
+            </div>
+            <div class="box-putMoney-btn">
+                <button class="put-money-btn" type="submit"> 입금</button>
+            </div>
+            <div class="box-drink-list">
+    
+                <div class="drink-preview">
+                    <p class="cola preview">original-cola</p>
+                   <button class="cola-count" type="button">1</button>
+                   </div>
+                   <div class="drink-preview">
+                    <p class="cola preview2">Green-cola</p>
+                   <button class="cola-count" type="button">1</button>
+                </div>
+            </div>
+            <div class="box-drink-list1">
+                
+            </div>
+            <div class="box-get-drink-btn">
+                <button class="get-money" type="submit"> 획득</button>
+            </div>
+         </div>
+          <!--그리드 grid-container2 끝  -->
+        </section> <!--fist 컨텐츠박스 끝 -->
+          <section class="second-contentbox"> <!-- 두번째 컨텐츠박스 시작 -->
+            <div class="flex-container2"> <!-- flex container-2시작 -->
+            <div class="my-money">
+                <div class="money-infoBox">
+                <input type="text" value="  소지금 :                                                      25,000원">
+            </div>
+                
+            </div>
+              <div class="secound-sidebox"> <!-- 사이드박스 시작 -->
+                    <h1>획득한 음료</h1>
+                   <div class="cola-listbox-scrool style"> <!-- 스크롤박스 시작 -->
+                  
+                    <div class="cola-list">
+                        <p class="cola-name Original">original-cola</p>
+                       <button class="cola-count" type="button">1</button>
+                       </div>
+                       <div class="cola-list">
+                        <p class="cola-name Green">Green-cola</p>
+                       <button class="cola-count" type="button">4</button>
+                    </div>
+                    <div class="cola-list">
+                        <p class="cola-name Orange">Orange-cola</p>
+                       <button class="cola-count" type="button">3</button>
+                    </div>
+                    <div class="cola-list">
+                        <p class="cola-name Violet">Violet-cola</p>
+                       <button class="cola-count" type="button">5</button>
+                    </div>
+
+                      </div>
+                      <p class="total-price">총금액 : 9,000 원 </p>
+                   
+                   </div><!-- 스크롤박스 끝 -->
+                </div><!-- 사이드박스 끝 -->
+               
+          </section><!-- 두번째 컨텐츠박스 끝 -->
+         
+        </div><!-- flex container-2의끝 -->
+        </div><!-- flex container끝 -->
+        </div> <!--wrapper div임  -->
+    
+  
+</body>
+</html>
